@@ -1,0 +1,6 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(467,5): warning MSB8028: 중간 디렉터리(Debug\)에 다른 프로젝트(pset6.vcxproj)에서 공유하는 파일이 포함되어 있습니다.  이로 인해 잘못된 정리 및 다시 빌드 동작이 수행될 수 있습니다.
+  infix.cpp
+C:\Users\desktop\nowic\pset6\infix.cpp(117,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  infixDriver.cpp
+  코드를 생성하고 있습니다...
+  pset6.vcxproj -> C:\Users\desktop\nowic\pset6\infix\Debug\infix.exe
