@@ -1,0 +1,21 @@
+#On my honor, I pledge that I have neither received nor provided
+#improper assistance in the completion of this programming assignment.
+#Signed: 김민혁
+
+CC = g++
+LDFLAGS = -L../../lib -lnowic -lsort
+INCDIR = ../../include
+SRCS = sortDriver1.cpp
+OBJS = $(SRCS:.cpp=.o)
+TARGET = sort
+
+%.o:  %.cpp
+	$(CC) -c -I$(INCDIR) -o $@ $<
+$(TARGET): $(OBJS)
+	$(CC) -o $@ $^ $(LDFLAGS)
+
+.PHONY: clean cleano
+clean:
+	rm -f $(OBJS)
+cleano:
+	rm -f $(OBJS) $(TARGET).exe $(TARGET)
